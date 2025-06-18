@@ -18,7 +18,6 @@ namespace eadPoo4
         SalarioBase = salarioBase;
     }
 
-    // Método virtual pode ser sobrescrito nas classes filhas
     public virtual double CalcularSalarioFinal()
     {
         return SalarioBase;
