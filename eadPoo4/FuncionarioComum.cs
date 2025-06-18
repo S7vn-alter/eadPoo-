@@ -12,7 +12,6 @@ namespace eadPoo4
     {
     }
 
-    // Usa a implementação padrão da classe base
     public override string ExibirDados()
     {
         return $"Nome: {Nome} Comum | Salário Final: R$ {CalcularSalarioFinal():F2}";
